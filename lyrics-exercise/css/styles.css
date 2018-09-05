@@ -1,0 +1,30 @@
+h1 {
+	font-size: 24px;
+	color: pink;
+	text-align: center;
+}
+
+h2 {
+	font-size: 12px;
+	font-style: italic;
+	text-align: center;
+	padding-bottom: 50px;
+	color: pink;
+}
+
+body {
+	background-color: rgb(7, 26, 56);
+	font-size: 14px;
+	color: white;
+	text-align: left;
+	margin-top: 50px;
+	margin-left: 100px;
+	margin-bottom: 50px;
+	line-height: 18px;
+}
+
+.copyright {
+	text-align: left;
+	font-size: 8pt;
+	line-height: 11pt;
+}
