@@ -1,0 +1,65 @@
+body {
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 2rem;
+	padding: 100px;
+	padding-top: 50px;
+}
+
+h1 {
+	font-size: 2rem;
+	font-weight: bold;
+	margin: 0;
+}
+
+.sub {
+	line-height: 0.2rem;
+	color: pink;
+	font-size: 0.6rem;
+	font-weight: 400;
+}
+
+h2 {
+	color: #5C5C5C;
+	font-size: 1rem;
+	font-weight: 700;
+	margin: 0;
+}
+
+.light {
+	font-weight: 300;
+}
+
+.strong {
+	font-weight: 700;
+}
+
+.italic {
+	font-weight: 400;
+	font-style: italic;
+}
+
+.space1 {
+	letter-spacing: 0.5rem;
+}
+
+.space2 {
+	letter-spacing: -0.25rem;
+}
+
+.dec1 {
+	text-decoration: underline;
+}
+
+.dec2 {
+	text-decoration: line-through;
+}
+
+.trans1 {
+	text-transform: uppercase;
+}
+
+.trans2 {
+	text-transform: capitalize;
+}
