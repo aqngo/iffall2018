@@ -1,0 +1,68 @@
+html {
+	height: 100%;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: 'Luckiest Guy', cursive;
+	margin: 0;
+	padding: 0;
+	background-image: url("../images/goonies1.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+a {
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	z-index: 100;
+}
+
+#text {
+	color: white;
+	display: inline-block;
+	text-align: center;
+	position: fixed;
+}
+
+@media screen and (min-width: 1000px){
+	#text {
+	font-size: 40px;
+	letter-spacing: 3px;
+	line-height: 1.2;
+	left: 30%;
+	top: 65%;
+	width: 400px;
+	}
+}
+
+@media screen and (max-width: 999px) {
+	#text {
+		font-size: 38px;
+		letter-spacing: 3px;
+		line-height: 1.2;
+		width: 350px;
+		left: 30%;
+		top: 65%;
+	}
+}
+
+@media screen and (max-width: 500px){
+	body {
+		background-position: 53%;
+	}
+	#text {
+	font-size: 24px;
+	letter-spacing: 3px;
+	line-height: 1.2;
+    width: 175px;
+    left: 30%;
+    top: 65%;
+	}
